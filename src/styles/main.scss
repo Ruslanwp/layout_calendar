@@ -55,7 +55,6 @@ $days: (
 
 @for $i from 1 through 31 {
   .calendar div:nth-child(#{$i})::after {
-    position: relative;
     content: "#{$i}";
     font-size: 30px;
   }
